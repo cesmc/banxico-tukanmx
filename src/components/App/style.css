@@ -1,3 +1,82 @@
-.App {
+.app-container {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: 700;
   text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form-title {
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+a:link {
+  color: grey;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-token {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.form-series {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 16px;
+}
+
+.form-series--input-button {
+  display: flex;
+
+}
+
+.form-series--input {
+  border-radius: 5px 0 0 5px;
+  flex-grow: 1;
+}
+
+.form-button {
+  width: 20%;
+  background: none;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid black;
+  border-left: none;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
